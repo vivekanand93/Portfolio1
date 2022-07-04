@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bitter:ital,wght@1,200&family=Square+Peg&family=Tapestry&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.sidebar {
+    position: absolute;
+    font-family: 'Bitter',
+        serif;
+    font-size: auto;
+    background-color: rgb(223, 216, 206);
+    /* width: 12%; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.main {
+    font-family: 'Bitter',
+        serif;
+    /* background-color: aqua; */
+    width: 88%;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    display: flex;
+    /* background-color: rgb(44, 115, 173); */
+    height: 50vh;
+    width: 80vw;
+    margin: 100px auto;
+    justify-content: space-around;
+}
+
+.devPics img {
+    width: 175px;
+    height: 27vh;
+}
+
+.devInfo {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 120px;
+}
+
+.hello {
+    font-family: 'Square Peg',
+        cursive;
+    font-size: 3.7em;
+}
+
+.name {
+    font-family: 'Bitter',
+        serif;
+    font-size: 3.8em;
+    font-weight: bold;
+}
+
+.about {
+    margin-top: 0.6em;
+    font-family: 'Tapestry',
+        cursive;
+    font-size: 2em;
+}
+
+.aboutbio {
+    margin-top: 0.6em;
+    font-family: 'Bitter', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 1.8em;
+    font-size: 13px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 1.9em;
+    color: white;
+    background-color: rgb(30, 208, 208);
+    font-weight: bold;
+    margin: 0.4em 0.8em 0.4em 0.2em;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    color: rgb(30, 208, 208);
+    background-color: white;
+}
+
+.contactform {
+    padding: 0 34px;
+    /* padding-top: 110px; */
+    font-family: 'Amatic SC',
+        cursive;
+    font-size: 17px;
+    margin: 50px 130px;
+}
+
+.contactform h2 {
+    font-family: 'Bitter',
+        serif;
+    font-size: 2em;
+    /* padding: 12px 0; */
+    /* text-align: center; */
+}
+
+.contactform form div {
+    padding: 10px 0;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form {
+    margin: 0 30px;
+}
+
+.contactform form div input {
+    /* width: 23vw; */
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.btn-sm {
+    padding: 7px 9px;
+    border-radius: 22px;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(173, 208, 113);
+    font-weight: bold;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.btn-sm :hover {
+    color: rgb(173, 208, 113);
+    background-color: white;
+}
+
+#emailHelp {
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check-input {
+    width: 28px;
+    margin: 3px 0;
+}
+
+.blogContainer {
+    font-family: 'Amatic SC',
+        cursive;
+    margin: 40px 150px;
+    font-size: 17px;
+}
+
+.blogContainer h1 {
+    font-size: 3.5em;
+}
+
+.blogitem {
+    font-size: 1.5em;
+    font-family: 'Bitter',
+        serif;
+    margin: 20px;
+}
+
+.intro {
+    margin: 40px 150px;
+    font-size: 17px;
+}
+
+.intro h2 {
+    margin: 15px;
+    font-size: 2em;
+}
+
+.intro p {
+    margin: 10px;
+    font-size: 1em;
+}
+
+.skillContainer1 {
+    width: 100%;
+    height: 0.9em;
+    background-color: #ddd;
+    font-weight: 900;
+}
+
+.skills {
+    text-align: right;
+    height: 0.8em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+}
+
+.html {
+    width: 95%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+.react {
+    width: 68%;
+    background-color: #808080;
+}
+
+/* .skillContainer {
+    padding: 12px;
+}
+
+.skillItems {
+    display: flex;
+    font-size: 1.4em;
+    align-items: center;
+    font-weight: 900;
+}
+
+.skill {
+    width: 300px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 300px;
+    background-color: rgb(26, 57, 232);
+}
+
+.s5 {
+    width: 225px;
+    background-color: rgb(28, 195, 204);
+}
+
+.sixty {
+    width: 180px;
+    background-color: rgb(28, 204, 75);
+}
+
+.fifty {
+    width: 150px;
+    background-color: rgb(204, 128, 28);
+}
+
+.t5 {
+    width: 75px;
+    background-color: rgb(225, 46, 19);
+}
+ */
+
+.tricksContainer {
+    /* margin: 20px 50px; */
+    font-size: 1em;
+}
+
+.tricksItem {
+    font-size: 1.5em;
+    font-family: 'Bitter',
+        serif;
+    margin: 20px;
+}
+
+.websiteContainer {
+    font-size: 17px;
+}
+
+.projectContainer {
+    padding: 12px;
+
+}
+
+.projectContainer h3,
+p {
+    font-weight: 600;
+
+}
+
+#piLink {
+    color: rgb(141, 21, 81);
+}
+
+
+.projectItem {
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+.projectItem a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+
+.hamber {
+    margin-top: 5px;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+
+.ham {
+    margin-left: 10px;
+}
+
+.cross {
+    /* margin-top: 5px; */
+    margin-left: 117px;
+}
+
+.sidebarGo {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.websiteContainer {
+    /* display: flex; */
+    padding: 12px;
+    margin: 40px 150px;
+    font-size: 17px;
+}
+
+.serviceContainer {
+    display: flex;
+    padding: 12px;
+    margin: 40px 150px;
+    font-size: 17px;
+}
+
+.serviceItem {
+    padding: 5px;
+    margin: 30px 40px;
+}
+
+@media (max-width: 965px) {
+    .devPics {
+        display: none;
+    }
+
+    .buttons {
+        font-size: 6px;
+    }
+
+    .intro,
+    .blogContainer,
+    .contactform,
+    .devInfo {
+        margin: 40px;
+        font-size: 12px;
+    }
+}

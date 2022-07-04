@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.container {
+    /* background-color: rgba(255, 55, 150, 0.8); */
+    margin: 4px 9px;
+    padding: 10px;
+    width: auto;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    /* border: 1px solid rgba(0, 0, 255, 0.8); */
+}
+
+.content li {
+    list-style: none;
+    font-size: 1em;
+    padding: 4px 0;
+}
+
+.content {
+    /*  border: 5px solid rgba(105, 25, 255, 0.8);
+    background-color: rgba(15, 255, 150, 0.8); */
+    font-size: 20px;
+    padding: 2px;
+    margin: 2px 4px;
+    /* border: 1px solid rgba(200, 0, 0, 0.8); */
+}
+
+img {
+    float: right;
+    height: 4em;
+    width: 3.5em;
+    object-fit: cover;
+    display: inline-flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.projectItem {
+    margin: 5px 20px;
+}
+
+/* .move {
+    float: right;
+    display: inline;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.move h2 h3 h4 {
+    display: grid;
+    flex-direction: row;
+    align-items: space-around;
+
+} */
+
+.btn-sm {
+    padding: 7px 9px;
+    border-radius: 22px;
+    font-size: 0.5em;
+    color: white;
+    background-color: rgb(37, 63, 236);
+    font-weight: bold;
+    margin: 3px 0;
+    cursor: pointer;
+}
+
+.btn-sm:hover {
+    color: rgb(47, 88, 212);
+    background-color: white;
+}
+
+#datetime {
+    display: inline-flex;
+    font-size: 0.8em;
+}
+
+#gradient {
+    background-color: #f42813;
+    background-image: linear-gradient(#ff9933, #FFFFFF, #38761D);
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    margin: 3px 10px;
+    font-family: calibre;
+    font-size: 2.2em;
+}
+
+h2 {
+    margin: 3px 10px;
+}
+
+h3 {
+    margin: 3px 10px;
+}
+
+p {
+    font-size: 1em;
+    margin: 5px 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: calibre;
+    color: rgba(0, 0, 0, 1);
+}
+
+address {
+    margin: 5px 10px;
+    font-size: 1em;
+    font-family: calibre;
+    color: rgba(0, 0, 0, 1);
+}
+
+.skills {
+    margin: 0.5em;
+}
+
+pre {
+    margin: 0.5em;
+    font-size: 1em;
+    font-family: calibre;
+}
+
+div {
+    column-gap: 20px;
+}
+
+
+@media (max-width: 965px) {
+    img {
+        width: 1.5em;
+        height: 2.8em;
+    }
+
+    .content {
+        font-size: 12px;
+    }
+}
